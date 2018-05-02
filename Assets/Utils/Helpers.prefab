@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1456550500365060}
+  m_IsPrefabParent: 1
+--- !u!1 &1171030165606616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4581075879381840}
+  - component: {fileID: 114933296315181208}
+  m_Layer: 0
+  m_Name: DogGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1456550500365060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4745760394873574}
+  m_Layer: 0
+  m_Name: Helpers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1534901426401588
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4173902933575874}
+  - component: {fileID: 65590441212962408}
+  m_Layer: 0
+  m_Name: Spawn region
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1656650034081448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4678383223079558}
+  - component: {fileID: 114330913940144382}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1707478811889620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4551355946838066}
+  - component: {fileID: 114553213196495302}
+  m_Layer: 0
+  m_Name: TimerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1708367986452092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4704834148699098}
+  - component: {fileID: 114063467168707448}
+  - component: {fileID: 114550898148185196}
+  - component: {fileID: 114355799462036118}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1723922092923936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4431712935630080}
+  - component: {fileID: 114739646911263920}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4173902933575874
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534901426401588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.68, y: 3.96, z: 9.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4581075879381840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4431712935630080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723922092923936}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4745760394873574}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4551355946838066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707478811889620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4745760394873574}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4581075879381840
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171030165606616}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4173902933575874}
+  m_Father: {fileID: 4745760394873574}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4678383223079558
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656650034081448}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4745760394873574}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4704834148699098
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708367986452092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4745760394873574}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4745760394873574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456550500365060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4704834148699098}
+  - {fileID: 4431712935630080}
+  - {fileID: 4581075879381840}
+  - {fileID: 4551355946838066}
+  - {fileID: 4678383223079558}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65590441212962408
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534901426401588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.249571, y: 2.9456606, z: 11.994425}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114063467168707448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708367986452092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!114 &114330913940144382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656650034081448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7964bca9afd4c6745965ff663e181deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: farmer_girl
+    sprite: {fileID: 21300000, guid: 52d7e46cc6fc63b4eaf54416623a1b43, type: 3}
+  - characterName: cool_guy
+    sprite: {fileID: 21300000, guid: 702c1eacd5b9948439d34574905c01a6, type: 3}
+  - characterName: kiddo
+    sprite: {fileID: 21300000, guid: a2ec2996f4d2d6b47b2199d44c00783b, type: 3}
+  - characterName: old_lady
+    sprite: {fileID: 21300000, guid: e16b8f1959dfa3d4b838370bc6b49f88, type: 3}
+  - characterName: badass_gansta
+    sprite: {fileID: 21300000, guid: 847c6e1a3b59b7d44aaf5f9d9d53463a, type: 3}
+  phoneCallMessages:
+  - Hey! Can you take care of {0}? Thanks!
+  - Hi again! Mind to babysit {0} for a while?
+  - Hello sir. I need someone to look after {0}.
+  - Good evening! I have plans, can you keep an eye on {0}?
+  - Hello? I have a very important business meeting. Mind to take care of {0}?
+  dogNamesFilename: dog_names
+  badJobMessages:
+  - Wow, that was such a bad job!
+  averageJobMessages:
+  - Hey, thanks for that!
+  awesomeJobMessages:
+  - Wow, I've never seen anything like that!
+  maxErrorsPerDoggo: 2
+  awesomeJobClip: {fileID: 8300000, guid: c442283151242d442825f363d31154e5, type: 3}
+  averageJobClip: {fileID: 8300000, guid: c442283151242d442825f363d31154e5, type: 3}
+  badJobClip: {fileID: 8300000, guid: 3c37ca645a5657f4699d4725b07efd3b, type: 3}
+  barkClips:
+  - {fileID: 8300000, guid: b01d4969fb3b83646bf6fd3de02019d5, type: 3}
+  - {fileID: 8300000, guid: 3e6a232e7cd65e34fb2d9205bc7f59e0, type: 3}
+  - {fileID: 8300000, guid: 8aec8abeedb6f594bae2c3cef59f6c39, type: 3}
+  barkPitchMin: 0.7
+  barkPitchMax: 1.3
+  pointsPerAwesomeJob: 100
+  pointsPerAverageJob: 30
+  maxHearts: 6
+  gamePaused: 0
+  pauseMenu: {fileID: 0}
+  gameOverMenu: {fileID: 0}
+  totalNumberOfDoggos: 0
+  gameOver: 0
+--- !u!114 &114355799462036118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708367986452092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &114550898148185196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708367986452092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &114553213196495302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707478811889620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488d0f05c73afd5438d626b2f8104ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPhoneCallDelay: 20
+  secondPhoneCallDelay: 50
+  delayBetweenPhoneCallsMin: 30
+  delayBetweenPhoneCallsMax: 40
+  delayBetweenPhoneCallsAbsMin: 5
+  msgTimeAtDoor: 6
+  fastMsgTimeAtDoor: 1
+  timeBetweenRings: 3
+  maxAdmittedWaitTime: 15
+  firstDoggoStayTime: 40
+  stayTimeMin: 50
+  stayTimeMax: 60
+  awesomeJobClip: {fileID: 8300000, guid: c442283151242d442825f363d31154e5, type: 3}
+  averageJobClip: {fileID: 8300000, guid: c442283151242d442825f363d31154e5, type: 3}
+  badJobClip: {fileID: 8300000, guid: 3c37ca645a5657f4699d4725b07efd3b, type: 3}
+--- !u!114 &114739646911263920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723922092923936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5203b039d82464449b38b6384a077461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollWheelDelay: 0.1
+--- !u!114 &114933296315181208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171030165606616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f1ff4ea4902e14f96768e67ea5bcba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doggoPrefab: {fileID: 114482580536723524, guid: 52a12e32c6ea9e94f93215666b2d9b4d,
+    type: 2}
+  spawnRegion: {fileID: 65590441212962408}
+  delayBetweenPhoneCallAndSpawnMin: 1
+  delayBetweenPhoneCallAndSpawnMax: 2
+  bodyTextures:
+  - {fileID: 2800000, guid: 9e028518813763141ae0e56c0a5f9aa4, type: 3}
+  - {fileID: 2800000, guid: 7367a3a08fce7394c9b47f94fa185c79, type: 3}
+  - {fileID: 2800000, guid: 1cad78320f5d6514b96ebd5ccf083f68, type: 3}
+  - {fileID: 2800000, guid: 5841a9bbc3a5c31408cc734cb62cc9a6, type: 3}
+  - {fileID: 2800000, guid: dfde716d5eb3ba340a1ff591331e5f56, type: 3}
+  - {fileID: 2800000, guid: c658a92c339d02042899da1ba83d0532, type: 3}
+  - {fileID: 2800000, guid: 22bde0891dab96b45a9152a0be9db8d5, type: 3}
